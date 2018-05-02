@@ -43,11 +43,13 @@ public class TugasProject9 {
                 System.out.print("maaf silahkan input ulang pesanan anda");
                 break;
         }
-       {
+       
            if (jrsn>=1 && jrsn<=2){
             total=harga*jk;
-            System.out.print("tiket telah dipesan oleh"+nama+"jurusan"+nama_jurusan+"dengan jumlah"+jk+"tiket dengan total bayar yaitu Rp"+total);
+            System.out.println("tiket telah dipesan oleh"+nama);
+            System.out.println("jurusan"+nama_jurusan+"dengan jumlah"+jk);
+            System.out.println("tiket dengan total bayar yaitu Rp"+total);
     }
-    }
+    
 }
 }
