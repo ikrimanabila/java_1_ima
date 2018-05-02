@@ -24,6 +24,7 @@ public class TugasProject5 {
         
         System.out.print("masukan nilai hari : ");
         hari=inputan.nextInt();
+        //pakai "==" melambangkan samadengan2 yang artinya 1 itu senin, 2 itu selasa, dst
         
        if (hari==1)
         {

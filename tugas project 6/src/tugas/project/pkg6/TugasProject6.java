@@ -24,6 +24,7 @@ public class TugasProject6 {
         
         System.out.print("masukan nilai waktu : ");
         waktu=inputan.nextInt();
+        //pakai >= atau <= itu pertanda seperti "sampai" lalu "&&" untuk menghubungkan
         
         if (waktu>=5 && waktu<=11)
         {
