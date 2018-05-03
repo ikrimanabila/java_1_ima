@@ -27,12 +27,39 @@ public class TugasProject10 {
             System.out.println("data peserta ke-"+i);
             System.out.print("masukan nama peserta : ");
             nama=inputan.nextLine();
-            System.out.print("masukan kode kota : ");
+            System.out.print("masuka kode kota [B/D/E] : ");
             kode_kota=inputan.nextLine();
-            System.out.print("masukan jenis kelamin : ");
+            System.out.print("masukan jenis kelamin [L/P] : ");
             jk=inputan.nextLine();
-            System.out.println(nama+"berasal dari kota"+kode_kota+"dan berjeniis kelamin"+jk);
+            System.out.print(nama);
+            
+            switch (kode_kota){
+                case "B":
+                System.out.print("berasal dari jakarta");
+                break;
+                case "D":
+                System.out.print("berasal dari bandung");
+                break;
+                case "E":
+                System.out.print("berasal dari cirebon");
+                break; 
+                default:
+                System.out.print("berasal dari kota tidak tersedia");
+                break;
     }
-    
+            switch (jk){
+            case "P":
+                System.out.print("dan berjenis kelamin perempuan");
+                break;
+            case "L":
+                System.out.print("dan berjenis kelamin laki-laki");
+                break;
+            default:
+                System.out.print("dan jenis kelamin anda tidak terdeteksi");
+                break;
+           
+            }
+            System.out.println();
+}
 }
 }
