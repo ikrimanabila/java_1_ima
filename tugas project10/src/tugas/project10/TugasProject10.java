@@ -27,7 +27,7 @@ public class TugasProject10 {
             System.out.println("data peserta ke-"+i);
             System.out.print("masukan nama peserta : ");
             nama=inputan.nextLine();
-            System.out.print("masuka kode kota [B/D/E] : ");
+            System.out.print("masukan kode kota [B/D/E] : ");
             kode_kota=inputan.nextLine();
             System.out.print("masukan jenis kelamin [L/P] : ");
             jk=inputan.nextLine();
