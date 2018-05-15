@@ -32,7 +32,7 @@ public class TugasKelompok {
            nilai_mhs=inputan.nextInt();
            nilai++;
            total+=nilai_mhs;
-            rt=total/10;
+           rt=total/10;
             
          }while(nilai<11);
          
