@@ -33,7 +33,9 @@ public class TugasKelompok {
            nilai++;
            total+=nilai_mhs;
             rt=total/10;
+            
          }while(nilai<11);
+         
           if (rt>85){
             akr="grade A";
         }
