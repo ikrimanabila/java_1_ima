@@ -12,20 +12,18 @@ import java.util.Scanner;
  * @author GeeksFarm
  */
 class gaji{
-    int golongan,nip,gp,tunjangan,potongan,gt;
-    String nama,gol;
+    int golongan,nip;
+    int gp,tunjangan,potongan;
+    String nama;
     
     //contructor
     public gaji(){
         golongan=0;
         nip=0;
+        nama="";
         gp=0;
         tunjangan=0;
         potongan=0;
-        gt=0;
-        nama="";
-        gol="";
-        
     }
 
     //procedure input
@@ -38,10 +36,13 @@ public void input(){
         nama=input.nextLine();
         System.out.print("masukan golongan [1/2/3/4] : ");
         golongan=input.nextInt();
+}
 
 
 //prosedur if else
-switch(golongan){
+
+public void switch_case (){
+    switch(golongan){
                  case 1:
                      gp= 2000000;
                      tunjangan=gp*40/100;
@@ -67,6 +68,7 @@ switch(golongan){
                      break;
         }
 }
+
 //function gaji total
 public int gatot(){
     return(gp + tunjangan - potongan);
@@ -80,6 +82,7 @@ System.out.println("gaji pokoknya : rp. "+gp);
             System.out.println();
 }
 }
+
 //program utama
 public class Tugas_function {
 
@@ -90,6 +93,7 @@ public class Tugas_function {
         // TODO code application logic here
         gaji ga_tot=new gaji();
         ga_tot.input();
+        ga_tot.switch_case();
         ga_tot.output();
     }
     
