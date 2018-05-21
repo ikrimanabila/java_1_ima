@@ -112,7 +112,6 @@ public class Matriks_kel_imin {
                     hasil=hasil_perkalian[i][j]+hasil_kali_a[i][j];
                 }
                 all_hasil[i][j]=hasil; 
-       
             }
 }
          System.out.println();
